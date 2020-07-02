@@ -1,0 +1,73 @@
+*{
+  box-sizing:border-box;
+}
+
+.clear{
+  clear:left;
+}
+
+.container{
+  max-width:1440px;
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_1{
+  background-image:url(https://www.itseducation.asia/assets/images/article-images/65b0e_2434489.jpg);
+  background-size:cover;
+  width:100%;
+}
+
+.top{
+  padding-top:100px;
+  padding-left:30px;
+  width:45%;
+  padding-bottom:50px;
+}
+
+.uppertitle{
+  font-size:50px;
+  letter-spacing:5px;
+}
+
+.lowertitle{
+  font-size:70px;
+  letter-spacing:22px;
+}
+
+.fa{
+  padding-right:15px;
+}
+
+.btn{
+  padding: 12px 35px;
+  color: black;
+  display: block;
+  opacity: 0.7;
+  border-radius: 4px;
+  font-size:28;
+  background-color:white;
+}
+
+.login-gmail{
+  width:300px;
+  margin:50 auto;
+}
+
+.login-fb{
+  width:300px;
+  margin:50 auto;
+}
+
+.top p{
+  margin-top:80;
+  font-size:35;
+  text-align:center;
+}
+
+.btn:hover{
+  opacity:1;
+}
