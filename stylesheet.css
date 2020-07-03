@@ -67,23 +67,23 @@ a {
   display: block;
   opacity: 0.7;
   border-radius: 4px;
-  font-size:28;
+  font-size:28px;
   background-color:white;
 }
 
 .login-gmail{
   width:300px;
-  margin:50 auto;
+  margin:50px auto;
 }
 
 .login-fb{
   width:300px;
-  margin:50 auto;
+  margin:50px auto;
 }
 
 .top p{
-  margin-top:80;
-  font-size:35;
+  margin-top:80px;
+  font-size:35px;
   text-align:center;
 }
 
@@ -104,16 +104,16 @@ a {
   }
 
   .uppertitle{
-    font-size:45;
+    font-size:45px;
   }
   
   .lowertitle{
-    font-size:60;
+    font-size:60px;
     padding-left:20px;
   }
   
   .top p{
-    font-size:30;
+    font-size:30px;
   }
   
 }
@@ -132,12 +132,12 @@ a {
   }
 
   .uppertitle{
-    font-size:25;
+    font-size:25px;
 
   }
   
   .lowertitle{
-    font-size:30;
+    font-size:30px;
     padding-left:10px;
     letter-spacing:18;
   }
@@ -148,6 +148,6 @@ a {
   
   .btn{
     width:100%;
-    font-size:20;
+    font-size:20px;
   }
 }
