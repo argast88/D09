@@ -9,7 +9,7 @@ body{
   text-align: center;
   }
   .header{
-  width:1264px;
+  width:auto;
   height:110px;
   background-color:orange;
   }
@@ -28,12 +28,10 @@ body{
   border-radius: 15px;
   margin :25px 25px;
   }
-
   .header-right {
   float:right;
   color:#ffffff;
   }
-
   li {
   list-style: none;
   float:left;
@@ -68,8 +66,8 @@ li {
 }
 
 .container-top{
-  max-width:1440px;
-  width:100%;
+  width:auto;
+  hight:790px;
 }
 
 a {
@@ -79,7 +77,7 @@ a {
 .main_1{
   background-image:url(https://www.itseducation.asia/assets/images/article-images/65b0e_2434489.jpg);
   background-size:cover;
-  width:100%;
+  width:auto;
 }
 
 .top{
@@ -103,7 +101,7 @@ a {
   padding-right:15px;
 }
 
-.btn_top{
+.btn-top{
   padding: 12px 35px;
   color: black;
   display: block;
@@ -136,12 +134,14 @@ a {
 ========================================
 
 .wisata {
+  width: 1440px;
   text-align: center;
   font-family: 'montserrat',sans-serif;
   padding-top: 5px;
 }
 
 .isi-wisata {
+  width: auto;
   text-align: center;
   font-family: 'montserrat',sans-serif;
 }
@@ -325,17 +325,13 @@ li {
 }
   
 
-
-
-
-
-
 /* bagian contact-form */
 
 .section-title {
   text-align: center;
   padding-top: 250px;
   padding-bottom: 50px
+  width: auto;
 }
 
 .akhir {
@@ -343,6 +339,7 @@ li {
 }
 
 .section-title h3 {
+  width: auto;
   color:orange;
   letter-spacing: 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -351,6 +348,7 @@ li {
 }
 
 .section-title h5 {
+  width: auto;
   letter-spacing: 3px;
   font-weight: normal;
 }
@@ -360,7 +358,7 @@ li {
 }
 
 input {
-  width: 340px;
+  width: auto;
   margin-top: 10px;
   margin-bottom: 20px;
   padding: 5px;
@@ -369,7 +367,7 @@ input {
 }
 
 textarea {
-  width: 300px;
+  width: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 25px;
@@ -388,10 +386,10 @@ textarea {
 
 /* Bagian footer */
 .footer {
-  background-color: orange;
-  color: #fff;
+  background-color: #e2a355;
+  color: #ffffff;
   height: 115px;
-  width: 100%;
+  width: auto;
 }
 
 
