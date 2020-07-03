@@ -2,6 +2,25 @@
   box-sizing:border-box;
 }
 
+/* reset css */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+  
+
+
 .clear{
   clear:left;
 }
@@ -70,4 +89,65 @@ a {
 
 .btn:hover{
   opacity:1;
+}
+
+/* For Tablets */
+@media (max-width: 1000px) {
+  .main_1 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .top{
+    width:100%;
+    text-align:center;
+  }
+
+  .uppertitle{
+    font-size:45;
+  }
+  
+  .lowertitle{
+    font-size:60;
+    padding-left:20px;
+  }
+  
+  .top p{
+    font-size:30;
+  }
+  
+}
+
+/* For Smartphones */
+@media (max-width: 670px) {
+   .main_1 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .top{
+    width:100%;
+    text-align:center;
+    padding-left:0px;
+  }
+
+  .uppertitle{
+    font-size:25;
+
+  }
+  
+  .lowertitle{
+    font-size:30;
+    padding-left:10px;
+    letter-spacing:18;
+  }
+  
+  .top p{
+    font-size:20px;
+  }
+  
+  .btn{
+    width:100%;
+    font-size:20;
+  }
 }
