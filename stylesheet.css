@@ -56,12 +56,14 @@ header{
   font-size:25px;
 }
 
+header span{
+  display:none;
+}
 .menu-icon{
   color:white;
   float:right;
   margin:25px;
   font-size:25px;
-  display:none;
 }
 
 .clear{
