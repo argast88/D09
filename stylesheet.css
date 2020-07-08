@@ -7,8 +7,8 @@ html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
 form, input, div {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -30,7 +30,7 @@ header{
 .header-left{
   background-color:white;
   float:left;
-  margin-top:10;
+  margin-top:10px;
   border-radius:20px;
 }
 
@@ -112,23 +112,23 @@ a {
   display: block;
   opacity: 0.7;
   border-radius: 4px;
-  font-size:28;
+  font-size:28px;
   background-color:white;
 }
 
 .login-gmail{
   width:300px;
-  margin:50 auto;
+  margin:50px auto;
 }
 
 .login-fb{
   width:300px;
-  margin:50 auto;
+  margin:50px auto;
 }
 
 .top p{
-  margin-top:80;
-  font-size:35;
+  margin-top:80px;
+  font-size:35px;
   text-align:center;
 }
 
@@ -143,7 +143,7 @@ a {
 
 .main_2-head h1{
   color:#e2a355;
-  font-size:40;
+  font-size:40px;
 }
 
 .main_2-head p{
@@ -173,7 +173,7 @@ a {
   position:absolute;
   top:44%;
   width:100%;
-  font-size:35;
+  font-size:35px;
   letter-spacing:5px;
   color:white;
   font-weight:bold;
@@ -210,7 +210,7 @@ a {
 }
 
 .response p{
-  font-size:20;
+  font-size:20px;
 }
 
 input, textarea{
